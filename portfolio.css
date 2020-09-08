@@ -217,6 +217,7 @@ a:active { color: green; }
     font-size: 20px;
     font-family: "Montserrat", sans-serif;
     color: #edf0f1;
+    box-shadow: 2px 2px 5px grey;
 }
 
 #submit:hover {
