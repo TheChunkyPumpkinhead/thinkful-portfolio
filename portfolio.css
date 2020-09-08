@@ -51,7 +51,7 @@ header {
 
 /* Navigation Bar */
 .links li {
-    padding: 0px 20px;
+    padding: 0px 20px 10px;
 }
 
 .links li a {
@@ -89,6 +89,7 @@ nav ul.open {
     padding: 10px;
     color: #0088A9;
     margin-bottom: 20px;
+    margin-right: 10px;
 }
 
 .toggleNav:hover {
@@ -276,6 +277,7 @@ footer h2 {
     text-align: center;
     margin-top: 20px;
     font-size: 15px;
+    color: #edf0f1;
 }
 
 
@@ -293,7 +295,6 @@ nav ul{
 .toggleNav {
     display: none;
 }
-
 /* Intro */
 
     #intro {
