@@ -1,3 +1,8 @@
+/* There is a problem with the "toggleNav" class. When the page is resized to mobile-view, the "menu" toggle is open, and the page is resized to desktop view, 
+the list elements will stay in a column instead of reverting back to a row. Need to return to this code to fix this bug in the near future */
+
+
+
 /* Imports */
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
