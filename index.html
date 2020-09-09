@@ -1,158 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Taylor Phelps Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css"> 
-</head>
-<body>
-
-                                    <!-- Header -->
-<header>
-    <nav>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav>
         <div class="title">
-            <h1> Taylor Phelps </h1>
-            <h2> Developer </h2>
+          <h1>Taylor Phelps</h1>
+          <h2>Developer</h2>
         </div>
-        
-        <a href="#" id="menu" class="toggleNav"> ☰ Menu </a> 
+
+        <a href="#" id="menu" class="toggleNav"> ☰ Menu </a>
         <ul class="links">
-            <li><a href="#intro"> Introduction </a></li>
-            <li><a href="#about"> About Me </a></li>
-            <li><a href="#contact"> Contact </a></li>
-            <li><a id="proj" href="#project"> Projects </a></li>
+          <li><a href="#intro"> Introduction </a></li>
+          <li><a href="#about"> About Me </a></li>
+          <li><a id="proj" href="#project"> Projects </a></li>
+          <li><a href="#contact"> Contact </a></li>
+        
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-                                    <!-- Main -->
+    <!-- Main -->
     <section class="main">
+      <!-- Item 1-->
 
-                <!-- Item 1-->
+      <div class="item" id="intro">
+        <img class="photo" src="images/taylor2.PNG" alt="Image of Taylor" />
 
-        <div class="item" id="intro">
-
-            <img class="photo" src="images/taylor2.PNG" alt="Image of Taylor">
-
-            <div class="intro-content">
-                <h2> Introduction </h2>
-                <p> Allow me to introduce myself. My name Is Taylor Phelps.</p> 
-                <p> I am a web developer from Lynchburg, Virginia. </p>
-                <p> I build various projects pertaining to the web, but I enjoy all aspects of development
-                    and in my spare time I intend on studying any and all parts of development. </p>
-                <p> My skills are practiced and proven in:</p>
-                <ul>
-                    <li> Html </li>
-                    <li> CSS </li>
-                    <li> JavaScript </li>
-                    <li> React </li>
-                    <li> NodeJS </li>
-                    <li> MongoDB </li>
-                </ul>
-            </div>
+        <div class="intro-content">
+          <h2>Introduction</h2>
+          <p>Allow me to introduce myself. My name Is Taylor Phelps.</p>
+          <p>I am a web developer from Lynchburg, Virginia.</p>
+          <p>
+            I build various projects pertaining to the web, but I enjoy all
+            aspects of development and in my spare time I intend on studying any
+            and all parts of development.
+          </p>
+          <p>My skills are practiced and proven in:</p>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>NodeJS</li>
+            <li>MongoDB</li>
+          </ul>
         </div>
+      </div>
 
-                <!-- Item 2 -->
+      <!-- Item 2 -->
 
-        <div class="item" id="about">
-            <h2> About Me </h2>
-            <p> Originally being a server in the service industry, I wanted something more for my life than living paycheck
-                to paycheck. </p> 
-                <p>In 2019, one of the guests that I served told me all about his career in development and told me
-                that I could start a lucrative career in development without a college education, I was immediately intrigued.
-                We kept in contact and he provided me resources to begin my development journey. I've been hooked ever since.</p>
-                 <p>I still remember the moment that I completed my first application. It felt so good to finally 
-                 complete something on my own! It has been a tough journey, but it has been very fun and rewarding. I intend
-                 to develop for the rest of my life and cannot wait to get working with a team of people to make amazing things. </p>
+      <div class="item" id="about">
+        <h2>About Me</h2>
+        <p>
+          Originally being a server in the service industry, I wanted something
+          more for my life than living paycheck to paycheck.
+        </p>
+        <p>
+          In 2019, one of the guests that I served told me all about his career
+          in development and told me that I could start a lucrative career in
+          development without a college education, I was immediately intrigued.
+          We kept in contact and he provided me resources to begin my
+          development journey. I've been hooked ever since.
+        </p>
+        <p>
+          I still remember the moment that I completed my first application. It
+          felt so good to finally complete something on my own! It has been a
+          tough journey, but it has been very fun and rewarding. I intend to
+          develop for the rest of my life and cannot wait to get working with a
+          team of people to make amazing things.
+        </p>
 
-                 <p> In the brief moments that I'm not coding, I love to spend time with my fiance, Sarah, and our
-                    two dogs, Kent, and Laney. <br>I also enjoy gaming with my friends, video editing, and learning
-                    about all things space and technology.</p>
+        <p>
+          In the brief moments that I'm not coding, I love to spend time with my
+          fiance, Sarah, and our two dogs, Kent, and Laney. <br />I also enjoy
+          gaming with my friends, video editing, and learning about all things
+          space and technology.
+        </p>
 
-                <p> My desire would be to provide websites for people. I really enjoy the creative part of making a website. <br>
-                    I suppose in the future, I would love to be making websites and applications pertaining to space and technology for people.</p>
+        <p>
+          My desire would be to provide websites for people. I really enjoy the
+          creative part of making a website. <br />
+          I suppose in the future, I would love to be making websites and
+          applications pertaining to space and technology for people.
+        </p>
+      </div>
+
+      <!-- Item 3 -->
+
+      <div class="item" id="project">
+        <h2>Projects</h2>
+
+        <div class="gallery">
+          <div class="img-text">
+            <a
+              href="https://tphelps93.github.io/simpleCalculator/"
+              target="_blank"
+              ><img
+                class="gallery-item"
+                id="calculator"
+                src="images/JS-Calc.PNG"
+                alt="JavaScript Calculator Project"
+            /></a>
+            <h2>JavaScript Calculator</h2>
+            <p>
+              A simple, yet functional calculator web-application made with
+              JavaScript. Complete with all the basic operations.
+            </p>
+          </div>
+          <div class="img-text">
+            <a href="https://tphelps93.github.io/drumKit/" target="_blank"
+              ><img
+                class="gallery-item"
+                id="drumkit"
+                src="images/drum.PNG"
+                alt="JavaScript DrumKit Project"
+            /></a>
+            <h2>JavaScript Drumkit</h2>
+            <p>A working drum-kit made with JavaScript.</p>
+          </div>
+
+          <div class="img-text">
+            <a href="https://tphelps93.github.io/flexbox-form/" target="_blank"
+              ><img
+                class="gallery-item"
+                id="dog"
+                src="images/dog.PNG"
+                alt="FlexBox Form Project"
+            /></a>
+            <h2>JavaScript Flexbox Form</h2>
+            <p>A form that mimicks functionality of an AirB&B search form.</p>
+          </div>
         </div>
+      </div>
 
-                <!-- Item 3 -->        
+      <!-- Item 4 -->
 
-        <div class="item" id="contact">
-            <h2> Contact Me </h2>
-            <p> If you have any further questions, you can reach me at one of these links: </p>
-            
-            <ul> 
-                <li><a href="https://github.com/tphelps93" target="_blank"> GitHub </a></li>
-                <li><a href="https://www.linkedin.com/in/taylor-phelps-4377b81b3/" target="_blank"> LinkedIn </a></li>
-            </ul>
+      <div class="item" id="contact">
+        <h2>Contact Me</h2>
+        <p>
+          If you have any further questions, you can reach me at one of these
+          links:
+        </p>
 
-            <h2> Contact Form </h2>
+        <ul>
+          <li>
+            <a href="https://github.com/tphelps93" target="_blank"> GitHub </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/taylor-phelps-4377b81b3/"
+              target="_blank"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
 
-            <form id="contact-form" action="https://formspree.io/tphelps1993@gmail.com" method="post">
+        <h2>Contact Form</h2>
 
-            
-                <label for="first-name"> First Name </label>
-                <input name="first-name" type="text" id="first-name">
+        <form
+          id="contact-form"
+          action="https://formspree.io/tphelps1993@gmail.com"
+          method="post"
+        >
+          <label for="first-name"> First Name </label>
+          <input name="first-name" type="text" id="first-name" />
 
-                <label for="last-name"> Last Name </label>
-                <input name="last-name" type="text" id="last-name">
+          <label for="last-name"> Last Name </label>
+          <input name="last-name" type="text" id="last-name" />
 
-                <label for="email"> Email </label>
-                <input name="email" type="email" id="email" pattern="[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,3}">
+          <label for="email"> Email </label>
+          <input
+            name="email"
+            type="email"
+            id="email"
+            pattern="[\w._%+-]+@[\w.-]+\.[a-zA-Z]{2,3}"
+          />
 
-                <label for="message"> Message </label>
-                <textarea name="message" id="message" cols="10" rows="5"></textarea>
+          <label for="message"> Message </label>
+          <textarea name="message" id="message" cols="10" rows="5"></textarea>
 
-
-                <button type="submit" id="submit"> Submit </button>
-                
-            </form>
-        </div>
-
-                <!-- Item 4 -->
-
-        <div class="item" id="project">
-            <h2> Projects </h2>
-
-            <div class="gallery">
-                <div class="img-text">
-                    <a href="https://tphelps93.github.io/simpleCalculator/" target="_blank"><img class="gallery-item" id="calculator" src="images/JS-Calc.PNG" alt="JavaScript Calculator Project"></a>
-                    <h2> JavaScript Calculator </h2>
-                    <p> A simple, yet functional calculator web-application made with JavaScript. Complete with all the basic operations.</p>
-                </div>
-                <div class="img-text">           
-                    <a href="https://tphelps93.github.io/drumKit/" target="_blank"><img class="gallery-item" id="drumkit" src="images/drum.PNG" alt="JavaScript DrumKit Project"></a>
-                    <h2> JavaScript Drumkit </h2>
-                    <p> A working drum-kit made with JavaScript.</p>
-
-                </div>
-
-                <div class="img-text">
-                    <a href="https://tphelps93.github.io/flexbox-form/" target="_blank"><img class="gallery-item" id="dog" src="images/dog.PNG" alt="FlexBox Form Project"></a>
-                    <h2> JavaScript Flexbox Form </h2>
-                    <p> A form that mimicks functionality of an AirB&B search form. </p>
-
-                </div>
-            </div>
-        </div>
+          <button type="submit" id="submit">Submit</button>
+        </form>
+      </div>
     </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
 
     <footer class="footer">
-        <h2> @Taylor Phelps - 2020 </h2>
+      <h2>@Taylor Phelps - 2020</h2>
     </footer>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-  <!-- Functionality for the "Menu" toggle for the nav-bar -->
-  <script>
-      $(function() {
-          $('.toggleNav').on('click', function() {
-              $('.links').toggleClass('open');
-          });
+    <!-- Functionality for the "Menu" toggle for the nav-bar -->
+    <script>
+      $(function () {
+        $(".toggleNav").on("click", function () {
+          $(".links").toggleClass("open");
+        });
       });
-    
-  </script>
-    
-</body>
+    </script>
+  </body>
 </html>
