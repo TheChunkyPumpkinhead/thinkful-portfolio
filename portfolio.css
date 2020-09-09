@@ -54,9 +54,6 @@ header {
   transition: all 0.3s ease 0s;
 }
 
-.links li a:hover {
-  color: #0088a9;
-}
 
 nav li,
 nav a {
@@ -89,10 +86,6 @@ nav ul.open {
   margin-right: 10px;
 }
 
-.toggleNav:hover {
-  color: #edf0f1;
-}
-
 #proj {
   font-size: 16px;
   font-weight: 500;
@@ -117,17 +110,13 @@ nav ul.open {
   transition: 1.2s;
 }
 
-#proj:hover {
-  background-position: -120% 0;
-}
-
 /* Body */
 
 section.main {
   height: 100px;
   background-color: silver;
   flex-grow: 1;
-  overflow-y: auto;
+  /* overflow-y: auto; */
   font-family: "Montserrat", sans-serif;
 }
 
@@ -162,8 +151,8 @@ p {
 }
 
 .photo {
-  height: 100%;
-  width: 100%;
+  width: 500px;
+  max-width: 80%;
   padding-bottom: 20px;
 }
 
@@ -198,6 +187,7 @@ a:active {
   display: flex;
   flex-direction: column;
   padding: 20px;
+  margin-bottom: 100px;
 }
 
 #contact-form label {
@@ -240,16 +230,11 @@ a:active {
 }
 
 .gallery-item {
-  height: 30%;
-  width: 100%;
+  max-width: 70%;
   transition: 0.2s;
   cursor: pointer;
   border: 4px solid goldenrod;
   margin-left: 10px;
-}
-
-.gallery-item:hover {
-  transform: scale(1.1);
 }
 
 #project {
@@ -276,6 +261,9 @@ footer {
   color: #edf0f1;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 footer h2 {
@@ -299,6 +287,19 @@ footer h2 {
   .toggleNav {
     display: none;
   }
+
+  .links li a:hover {
+    color: #0088a9;
+  }
+
+  #proj:hover {
+    background-position: -120% 0;
+  }
+
+  .toggleNav:hover {
+    color: #edf0f1;
+  }
+
   /* Intro */
 
   #intro {
@@ -365,6 +366,10 @@ footer h2 {
   .gallery-item {
     height: 400px;
     width: 500px;
+  }
+
+  .gallery-item:hover {
+    transform: scale(1.1);
   }
 
   .img-text {
