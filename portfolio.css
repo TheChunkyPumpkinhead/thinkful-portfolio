@@ -1,5 +1,6 @@
 /* There is a problem with the "toggleNav" class. When the page is resized to mobile-view, the "menu" toggle is open, and the page is resized to desktop view, 
 the list elements will stay in a column instead of reverting back to a row. Need to return to this code to fix this bug in the near future */
+                                                                /* FIXED */
 
 
 
@@ -117,9 +118,12 @@ nav ul.open {
 
 /* Body */
 
+body {
+  background-color: silver;
+}
+
 section.main {
   height: 100px;
-  background-color: silver;
   flex-grow: 1;
   /* overflow-y: auto; */
   font-family: "Montserrat", sans-serif;
@@ -303,6 +307,11 @@ footer h2 {
 
   .toggleNav:hover {
     color: #edf0f1;
+  }
+
+  nav ul.open {
+    display: flex;
+    flex-direction: row;
   }
 
   /* Intro */
