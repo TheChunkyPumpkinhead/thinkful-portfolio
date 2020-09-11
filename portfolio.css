@@ -136,12 +136,13 @@ body {
   text-align: center;
 }
 
+
 h2 {
   padding-bottom: 20px;
 }
 
 p {
-  padding: 3px;
+  padding: 2px;
   margin-bottom: 5px;
 }
 
@@ -165,31 +166,39 @@ p {
   padding-bottom: 20px;
 }
 
+/* About Me */
+
 /* Contact */
-#contact a:link {
-  color: #0088a9;
+
+#contact ul {
+  display:flex;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 10px;
 }
-#contact a:visited {
-  color: goldenrod;
+
+#contact ul a {
+  color: #edf0f1;
+  text-decoration: none;
 }
-#contact a:hover {
-  color: lightgreen;
+
+#contact .social {
+  background-color: #0088a9;
+  border-radius: 5%;
+  margin: 10px;
+  width: 130px;
+  height: 50px;
+  color: #edf0f1;
+  font-size: 18px;
+  transition: 0.5s;
 }
-a:active {
-  color: green;
+
+#contact .social:hover {
+  background-color: goldenrod;
 }
 
 #contact h2 {
   margin-top: 20px;
-}
-
-#contact ul {
-  list-style-type: none;
-}
-
-#contact a {
-  text-decoration: none;
-  color: #0088a9;
 }
 
 #contact-form {
@@ -226,7 +235,6 @@ a:active {
 
 #submit:hover {
   background-color: goldenrod;
-  color: #24252a;
   transition: 0.3s;
 }
 
@@ -244,6 +252,7 @@ a:active {
   cursor: pointer;
   border: 4px solid goldenrod;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 #project {
@@ -254,12 +263,37 @@ a:active {
 
 #project h2 {
   color: goldenrod;
-  font-size: 20px;
+  font-size: 25px;
+  height: 30px;
+  margin-bottom: 20px;
 }
 
 #project p {
   font-size: 15px;
   color: #edf0f1;
+}
+
+#project ul {
+  color: #0088a9;
+  padding-bottom: 20px;
+}
+
+#project li {
+  color: #edf0f1;
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 15px;
+  padding-bottom: 5px;
+}
+
+.git-link a {
+  color: #edf0f1;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.git-link a:hover {
+  color: goldenrod;
 }
 
 /* Footer */
@@ -285,7 +319,7 @@ footer h2 {
 
 /* Media Queries */
 
-@media all and (min-width: 1820px) {
+@media all and (min-width: 1280px) {
   /* Navigation */
 
   nav ul {
@@ -349,11 +383,11 @@ footer h2 {
   }
 
   #about h2 {
-    align-self: flex-end;
+    align-self: flex-start;
   }
 
   #about p {
-    text-align: right;
+    text-align: left;
   }
 
   /* Contact */
