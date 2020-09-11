@@ -184,13 +184,14 @@ p {
 
 #contact .social {
   background-color: #0088a9;
-  border-radius: 5%;
+  border-radius: 2%;
   margin: 10px;
-  width: 130px;
+  width: 80px;
   height: 50px;
   color: #edf0f1;
   font-size: 18px;
   transition: 0.5s;
+  box-shadow: 2px 2px 5px #24252a;
 }
 
 #contact .social:hover {
@@ -230,7 +231,7 @@ p {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   color: #edf0f1;
-  box-shadow: 2px 2px 5px grey;
+  box-shadow: 2px 2px 5px #24252a;
 }
 
 #submit:hover {
@@ -397,6 +398,10 @@ footer h2 {
   #submit {
     width: 30%;
     margin-left: 35%;
+  }
+
+  #contact .social {
+    width: 150px;
   }
 
   /* Projects */
