@@ -3,3 +3,4 @@
 [Preview](https://tphelps93.github.io/thinkful-portfolio/)
 
 A portfolio website for the Thinkful EI Cohort assignment.
+Chris and Taylor
